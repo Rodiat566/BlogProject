@@ -34,6 +34,11 @@ export default function SingleBlogPage() {
     }
 
 
+    setauthor("")
+  settitle("")
+  setcontent("")
+  setimg("")
+
   useEffect(() =>{
     console.log('id', blogId.id);
     

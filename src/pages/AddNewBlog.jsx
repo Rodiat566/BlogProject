@@ -73,7 +73,10 @@ catch(err){
  }
 
 
-    
+ setauthor("")
+ settitle("")
+ setcontent("")
+ setimg("")
 
   // AddNewBlog() 
 

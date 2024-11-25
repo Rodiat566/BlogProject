@@ -28,8 +28,11 @@ export default function  EditBlog() {
       await updateDoc(washingtonRef, payload);
 
       console.log('Blog edited successfully ');
-      
-      
+      // to clear form after the submit button
+ setauthor("")
+ settitle("")
+ setcontent("")
+ setimg("")
     // console.log(author);
     // console.log(title);
     // console.log(content);
