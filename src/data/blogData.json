@@ -1,0 +1,38 @@
+[
+    {
+     "img": "./src/assets/explore/e1.jpg",
+    "title": "Tommy Helfinger Bar",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua....",
+    "author": "Alexander the Great"
+    },
+    {
+     "img": "./src/assets/explore/e2.jpg",
+    "title": "Tommy Helfinger Bar",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua....",
+    "author": "Alexander the Great"
+    },
+    {
+     "img": "./src/assets/explore/e3.jpg",
+    "title": "Tommy Helfinger Bar",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua....",
+    "author": "Alexander the Great"
+    },
+    {
+     "img": "./src/assets/explore/e4.jpg",
+    "title": "Tommy Helfinger Bar",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua....",
+    "author": "Alexander the Great"
+    },
+    {
+     "img": "./src/assets/explore/e5.jpg",
+    "title": "Tommy Helfinger Bar",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua....",
+    "author": "Alexander the Great"
+    },
+    {
+     "img": "./src/assets/explore/e6.jpg",
+    "title": "Tommy Helfinger Bar",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua....",
+    "author": "Alexander the Great"
+    }
+]
