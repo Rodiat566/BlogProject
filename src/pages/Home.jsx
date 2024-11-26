@@ -68,7 +68,7 @@ export default function Home() {
                  <div  key={index} className="bg-[#1c2841] hover:border text-white  overflow-hidden rounded-[15px] w-[100%] md:w-[45%] lg:w-[30%] min-h-[400px]">
                      <img src={item.img}  alt="" />
                       <div className="px-3 py-5 flex flex-col gap-3">
-                                <h1 className='text-lg font-bold'>{item.title}</h1>''
+                                <h1 className='text-lg font-bold'>{item.title}</h1>
                                 <p className='text-xs text-gray-300'>{item.content} <span onClick={()=>navigate(`/single_blog/${item.id}`)} className='text-xs text-blue-400 cursor-pointer' >[read more]</span></p>
                                 <hr  className='border-gray-600'/>
                                 <div className="flex items-center justify-between">
