@@ -20,7 +20,10 @@ export default function SingleBlogPage() {
     } else {
       console.log("No such document!");
     }
- 
+    setauthor("")
+    settitle("")
+    setcontent("")
+    setimg("")
   }
 
    
@@ -34,10 +37,7 @@ export default function SingleBlogPage() {
     }
 
 
-    setauthor("")
-  settitle("")
-  setcontent("")
-  setimg("")
+    
 
   useEffect(() =>{
     console.log('id', blogId.id);
