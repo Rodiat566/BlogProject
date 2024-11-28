@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import HeaderNavBar from '../components/Header'
 import data from '../data/blogData.json'
 import {getAllNews} from '../data/Newsapi'
-import db from '../data/FirebaseData'
+import db from '../data/firebaseData'
 import { collection, deleteDoc, doc, getDocs } from "firebase/firestore";
 import { useNavigate } from 'react-router-dom'
 

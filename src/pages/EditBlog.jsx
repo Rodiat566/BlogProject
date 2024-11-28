@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import HeaderNavBar from "../components/Header";
 import { doc,  getDoc,  updateDoc } from "firebase/firestore";
 import { useNavigate, useParams } from "react-router-dom";
-import db from "../data/FirebaseData";
+import db from "../data/firebaseData";
 
 export default function  EditBlog() {
   const [author, setauthor] = useState();
