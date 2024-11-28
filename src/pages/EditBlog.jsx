@@ -24,12 +24,11 @@ export default function  EditBlog() {
     }
     const washingtonRef = doc(db, "blog_DB", editId.id);
     
-    // Set the "capital" field of the city 'DC'
       await updateDoc(washingtonRef, payload);
 
       console.log('Blog edited successfully ');
       // to clear form after the submit button
- setauthor("")
+  setauthor("")
  settitle("")
  setcontent("")
  setimg("")
