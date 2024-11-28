@@ -28,14 +28,11 @@ export default function  EditBlog() {
 
       console.log('Blog edited successfully ');
       // to clear form after the submit button
-  setauthor("")
- settitle("")
- setcontent("")
- setimg("")
-    // console.log(author);
-    // console.log(title);
-    // console.log(content);
-    // console.log(img);
+         setauthor("")
+          settitle("")
+          setcontent("")
+          setimg("")
+   
     
   };
 
@@ -73,7 +70,6 @@ export default function  EditBlog() {
   useEffect(() => {
     console.log('id', editId.id);
     getsingleData()
-    // editPage()
     
   }, []);
 

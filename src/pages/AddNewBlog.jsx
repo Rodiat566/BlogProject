@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import HeaderNavBar from '../components/Header'
 import {collection,  addDoc } from "firebase/firestore";
 import db from "../data/FirebaseData";
@@ -7,7 +7,6 @@ import { addData } from '../components/AddData';
 
 
 export default function AddNewBlog() {
-  // const [data, setData] =useState()
   const [author, setauthor]  = useState()
   const [title, settitle] = useState()
   const [content, setcontent] = useState()
@@ -59,33 +58,28 @@ export default function AddNewBlog() {
   
 
 
-  try{
-    const res = await addData(data)
+    try{
+      const res = await addData(data)
+      setauthor("")
+      settitle("")
+      setcontent("")
+      setimg("")
+      navigate(`/Home/${res.id}`)
+    }
 
-    navigate(`/Home/${res.id}`)
-  }
-
-catch(err){
-    console.log(`Error occured is: ${err}`);
-    
-  }
+  catch(err){
+      console.log(`Error occured is: ${err}`);
+      
+    }
 
  }
 
 
- setauthor("")
- settitle("")
- setcontent("")
- setimg("")
 
-  // AddNewBlog() 
 
-  
+ 
 
-  useEffect(() =>{
-   
-    // addData()
-  },[])
+
 
   return (
     
