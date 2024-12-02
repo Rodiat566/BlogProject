@@ -22,6 +22,7 @@ export default function AddNewBlog() {
       img: newBlogData.img
     });
     console.log("Document written with ID: ", docRef.id);
+    
   }
   
   

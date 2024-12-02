@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import HeaderNavBar from '../components/Header'
 import { deleteDoc, doc, getDoc } from "firebase/firestore";
-import db from '../data/firebaseData';
 import { useNavigate, useParams } from 'react-router-dom'
+import db from '../data/firebaseData';
 
 export default function SingleBlogPage() {
   const blogId = useParams()
