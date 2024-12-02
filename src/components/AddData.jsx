@@ -1,5 +1,5 @@
 import {collection,  addDoc } from "firebase/firestore";
-import db from "../data/FirebaseData";
+import db from "../data/firebaseData";
 
 
  export const addData = async (newBlogData)=>{
